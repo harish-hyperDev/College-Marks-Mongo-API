@@ -63,5 +63,5 @@ export const ProfileSchema = new schema({
 
 export const LoggedInUserSchema = new schema({
     name: String,
-    id: String
+    _id: Number
 });
