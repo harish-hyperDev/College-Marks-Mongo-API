@@ -6,8 +6,8 @@ import { UserSchema, ProfileSchema, LoggedInUserSchema } from '../model/restMode
 
 //pass user object to create a new user in the database
 //using the model from our schema
-const User = mongoose.model('userlogin', UserSchema);
-const Profile = mongoose.model('users', ProfileSchema);
+const User = mongoose.model('admins', UserSchema);
+const Profile = mongoose.model('students', ProfileSchema);
 const LoggedInuser = mongoose.model('loggedInUser', LoggedInUserSchema);
 
 

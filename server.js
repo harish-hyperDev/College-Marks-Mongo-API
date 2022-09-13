@@ -14,7 +14,7 @@ import bodyParser from 'body-parser';
 const app = express();
 
 // Setup the port for the server
-const port = 4000;
+const port = 3001;
 
 //set connection between the API and mongoDB
 mongoose.Promise = global.Promise;

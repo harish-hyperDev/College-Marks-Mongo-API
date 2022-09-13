@@ -30,6 +30,9 @@ export const UserSchema = new schema({
         type: String,
         required: 'user_type is missing.'
     },
+    
+    subject: String,
+    branch: String,
 
 
     //this holds the creation date of a database object
@@ -49,6 +52,20 @@ export const ProfileSchema = new schema({
     email: String,
     phone: String,
     roll: String,
+    a: String,
+    b: String,
+    c: String,
+    d: String,
+    e: String,
+    f: String,
+    g: String,
+    h: String,
+    i: String,
+    j: String,
+    k: String,
+    l: String,
+    quiz: String,
+    quizz: String,
     // id: String,
 
 

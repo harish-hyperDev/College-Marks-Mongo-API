@@ -21,7 +21,7 @@ import {
 export const userRoutes = (app) => {
 
     // we use student to get a list of all students or post a new student
-    app.route('/userlogin')
+    app.route('/admins')
 
     // call the getUsers function
     .get(
@@ -34,7 +34,7 @@ export const userRoutes = (app) => {
     );
 
     // we pass studentID to get, delete and update a specific student
-    app.route('/userlogin/:userID')
+    app.route('/admins/:userID')
 
     .get(
         getUserByID
@@ -52,7 +52,7 @@ export const userRoutes = (app) => {
 export const profileRoutes = (app) => {
 
     // we use student to get a list of all students or post a new student
-    app.route('/users')
+    app.route('/students')
 
     // call the getUsers function
     .get(
@@ -65,7 +65,7 @@ export const profileRoutes = (app) => {
     );
 
     // we pass studentID to get, delete and update a specific student
-    app.route('/users/:profileID')
+    app.route('/students/:profileID')
 
     .get(
         getProfileByID
